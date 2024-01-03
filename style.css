@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: #171717;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todo-app{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.todo-body{
+    /* border: 1px solid red; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+    margin: 3px;
+}
+
+input{
+    padding: 15px;
+    border: none; 
+    border-radius: 5px;
+    margin: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+#addBtn{
+    width: 100px;
+    padding: 15px;
+    border: none; 
+    border-radius: 5px;
+    margin: 5px;
+    background-color: orange;
+}
+
+#addBtn:hover{
+    cursor: pointer;
+    background-color: #ffba3a;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin-bottom: center;
+}
+
+.task-text{
+    flex-grow: 1;
+    border: 1px white solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.deleteBtn{
+    background-color: red;
+    width: 100px;
+    padding: 15px;
+    border: none; 
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+    background-color: #fa3d3d;
+    font-weight: bold;
+    width: 100px;
+    padding: 15px;
+    border: none; 
+    border-radius: 5px;
+    margin: 5px;
+}
+
